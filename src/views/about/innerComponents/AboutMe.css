@@ -1,0 +1,49 @@
+.about-img-container {
+  padding: 20px;
+  height: inherit;
+}
+.about-img {
+  background-image: url(../../../assets/images/aboutme.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 367px;
+  height: inherit;
+  border-radius: 8px;
+}
+.about-content {
+  position: relative;
+  padding: 0 20px 20px 20px;
+}
+.about-scocial .icon {
+  font-size: x-large;
+}
+.about-scocial a {
+  color: #00a1ff;
+}
+.about-download {
+  margin-top: 25px;
+}
+.about-download .btn-info {
+  background-color: #00a1ff;
+  /* color: #000; */
+}
+/* .about-title {
+  position: absolute;
+} */
+@media screen and (max-width: 1024px) {
+  .about-download {
+    margin-top: 10px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .about-img-container {
+    padding: 20px 20px 0px 20px;
+  }
+  .about-content {
+    padding: 0 20px 20px 20px;
+  }
+  .about-download {
+    margin-top: 10px;
+  }
+}
