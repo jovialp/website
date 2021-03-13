@@ -3,11 +3,11 @@ import { Link } from 'react-router-dom';
 import './Navbar.css';
 
 import { getNavList } from "../nav";
-import detectBrowser from "../helpers/detectMobileBrowser";
+import useWindowIsMobile from "../helpers/detectMobileBrowser";
 
 class Navbar extends Component {
     state = {
-        isMobile: detectBrowser(),
+        isMobile: useWindowIsMobile(),
         
     };
 
