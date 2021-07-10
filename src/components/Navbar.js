@@ -3,17 +3,17 @@ import { Link } from 'react-router-dom';
 import './Navbar.css';
 
 import { getNavList } from "../nav";
-import useWindowIsMobile from "../helpers/detectMobileBrowser";
+// import useWindowIsMobile from "../helpers/detectMobileBrowser";
 
 class Navbar extends Component {
     state = {
-        isMobile: useWindowIsMobile(),
+        // isMobile: useWindowIsMobile(),
         
     };
 
     render() {
         const currentRoute = window.location.pathname;
-        const { isMobile } = this.state;
+        // const { isMobile } = this.state;
 
         return (
             <nav className="navbar navbar-default navbar-fixed-top">
@@ -38,7 +38,7 @@ class Navbar extends Component {
                                     ? `active`
                                     : ""
                                 }
-                                data-toggle={ isMobile? "collapse": "" }
+                                // data-toggle={ isMobile? "collapse": "" }
                                 data-target="#myNavbar"
                               >
                                 <Link to={navigation.url}>
