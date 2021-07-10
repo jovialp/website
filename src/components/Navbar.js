@@ -48,11 +48,11 @@ class Navbar extends Component {
                             ))}
                             {/* <li data-toggle="collapse" data-target="#myNavbar">
                                 <Link to="/">About</Link>
-                            </li>
+                            </li> */}
                             <li data-toggle="collapse" data-target="#myNavbar">
                                 <Link to="/resume">Resume</Link>
                             </li>
-                            <li data-toggle="collapse" data-target="#myNavbar">
+                            {/* <li data-toggle="collapse" data-target="#myNavbar">
                                 <Link to="/portfolio">Portfolio</Link>
                             </li> */}
                         </ul>
