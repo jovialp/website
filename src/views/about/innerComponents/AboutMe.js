@@ -23,7 +23,7 @@ class Aboutme extends Component {
                                 {/* <h3>Jovial P Thomas</h3> */}
                                 <h3>MEARN STACK DEVELOPER</h3>
                                 {/* <p className="text-justify">I'm a MEARN Stack Developer who looking for a position where I can have the opportunity to use my programming skills with a innovative, great, enthusiastic engineering team to work for that will provide me with challenging, interesting work that I can learn from and contribute to.</p> */}
-                                <p>Experienced Web Developer and Web Designer working in ReactJS, NodeJS, Javascript, ExpressJS, PostgresSQL, HTML5, CSS3, Bootstrap, NextJS, TypeScript, jQuery, MySQL and MongoDB.</p>
+                                <p>Experienced Software Engineer working in ReactJS, NodeJS, Javascript,ExpressJS, PostgresSQL, HTML5, CSS3, Bootstrap, NextJS, TypeScript, jQuery, MySQL and MongoDB.</p>
                                 <p>3 year of total experience in Graphic Designing as a freelancer.</p>
                                 <p>Good knowledge in Data Analysing and IT support.</p>
                                 <div className="about-scocial"><i className="fa fa-github-square icon"></i> <a href="https://github.com/jovialp" target="blank">github.com/jovialp </a></div>
