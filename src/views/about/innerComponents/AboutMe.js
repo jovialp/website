@@ -29,7 +29,7 @@ class Aboutme extends Component {
                                 <div className="about-scocial"><i className="fa fa-github-square icon"></i> <a href="https://github.com/jovialp" target="blank">github.com/jovialp </a></div>
                                 <div className="about-scocial"><i className="fa fa-linkedin-square icon"></i> <a href="https://www.linkedin.com/in/jovialp/" target="blank">linkedin.com/in/jovialp</a></div>
                                 <div className="about-scocial"><i className="fa fa-instagram icon"></i> <a href="https://www.instagram.com/jovial.pt/" target="blank">instagram.com/jovial.pt</a></div>
-                                <div className="about-scocial"><i className="fa fa-whatsapp icon"></i> <a href="https://api.whatsapp.com/send?phone=+918921123262" target="blank">+91-8606-672-525</a></div>
+                                <div className="about-scocial"><i className="fa fa-whatsapp icon"></i> <a href="https://api.whatsapp.com/send?phone=+918606672525" target="blank">+91-8606-672-525</a></div>
                                 {/* <div className="about-download"><a href="https://drive.google.com/open?id=1ZpH-Xmg9b2S2d5qDdPhSw1Y6wLNKeVM5" className="btn btn-info" target="blank">Download My Resume</a></div> */}
                                 {/* <div className="about-download"><Link to="/portfolio" className="btn btn-info">View My Works</Link></div> */}
                             </div>
