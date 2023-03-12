@@ -10,7 +10,7 @@ class Footer extends Component {
                     <div className="container">
                         <div className="row">
                             <div className="col-xs-12 footer-copyright  text-center">
-                                <h6>Copyright ©`${new Date().getFullYear()}` by <a href="/">Jovial</a>. All rights reserved.</h6>
+                                <h6>Copyright ©{new Date().getFullYear()} by <a href="/">Jovial</a>. All rights reserved.</h6>
                             </div>
                         </div>
                     </div>
